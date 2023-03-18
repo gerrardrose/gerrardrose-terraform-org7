@@ -17,6 +17,7 @@ module "subnets" {
   vpc_id              = module.vpc.vpc_id
   igw_id              = [module.vpc.igw_id]
   availability_zones  = ["eu-west-1a", "eu-west-1b"]
+  subnets_per_az_names = 2
   nat_gateway_enabled = var.nat_gateway_enabled
   max_nats            = var.max_nats
 }
