@@ -1,10 +1,10 @@
 aws_region="eu-west-1"
 
 # VPC variables
-namespace="staging"
+namespace="production"
 stage="training"
 name="vpc"
-cidr_block="10.30.0.0/16"
+cidr_block="10.40.0.0/16"
 nat_gateway_enabled="false"
 max_nats="1"
 
