@@ -20,7 +20,14 @@ variable "cidr_block" {
   description = "CIDR block for webserver VPC"
   type        = string
 }
-
+variable "nat_gateway_enabled" {
+  description = "NAT Gateway enabled"
+  type        = string
+}
+variable "max_nats" {
+  description = "Number of NAT Gateways"
+  type        = string
+}
 
 ## EC2 variables
 #variable "instance_type" {
