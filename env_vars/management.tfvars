@@ -6,7 +6,6 @@ stage="training"
 name="vpc"
 cidr_block="10.0.0.0/16"
 nat_gateway_enabled="false"
-max_nats=1
 
 ## EC2 variables
 #instance_type="t2.micro"
