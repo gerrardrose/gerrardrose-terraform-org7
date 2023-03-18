@@ -16,6 +16,7 @@ env:
 jobs:
   deploy_to_management:
     runs-on: ubuntu-latest
+    environment: management
     env:
       ENV: management
     defaults:
