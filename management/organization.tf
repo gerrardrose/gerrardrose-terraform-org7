@@ -1,3 +1,3 @@
 resource "aws_organizations_account" "security" {
-  # (resource arguments)
+  email = "gez.rose+security.org.7@gmail.com"
 }
