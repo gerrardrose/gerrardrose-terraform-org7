@@ -52,4 +52,4 @@ jobs:
 
       - name: Terraform Various
         id: various
-        run: terraform state list
+        run: terraform state show module.subnets.module.utils.data.aws_regions.default
