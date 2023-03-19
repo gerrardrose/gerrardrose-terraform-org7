@@ -99,4 +99,4 @@ jobs:
 
       - name: Terraform Apply
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
-        run: terraform import aws_organizations_account.security 788117796184
+        run: terraform state list
